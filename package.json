@@ -1,0 +1,21 @@
+{
+    "name": "trigg8-vscode-color-theme",
+    "displayName": "trigg8_vscode_color_theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "trigg8_vscode_color_theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/trigg8_vscode_color_theme-color-theme.json"
+            }
+        ]
+    }
+}
